@@ -1,0 +1,234 @@
+2021-05-30T14:34:24.128Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios.
+2021-05-30T16:15:59.478Z [store-api] error POST  - Name, CPF, Phone, Email e Address são obrigatórios.
+2021-05-30T16:17:23.920Z [store-api] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-05-30T16:20:12.268Z [store-api] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-05-30T16:20:48.771Z [store-api] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-05-30T16:51:52.522Z [store-api] info POST /client - {"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-05-30T16:52:16.696Z [store-api] error POST  - aaaa
+2021-05-30T16:59:32.775Z [store-api] error GET  - ClientService.getClients is not a function
+2021-05-30T16:59:56.546Z [store-api] info GET /client
+2021-05-30T17:00:05.226Z [store-api] info GET /client
+2021-06-01T01:34:54.048Z [store-api] info GET /client
+2021-06-01T01:35:36.602Z [store-api] info GET /client
+2021-06-01T01:36:27.111Z [store-api] info GET /client
+2021-06-01T01:41:40.832Z [store-api] info GET /client
+2021-06-01T01:42:38.330Z [store-api] info DELETE /client
+2021-06-01T01:42:44.504Z [store-api] info GET /client
+2021-06-01T01:42:49.792Z [store-api] info GET /client
+2021-06-01T01:42:53.962Z [store-api] info DELETE /client
+2021-06-01T01:42:54.792Z [store-api] info DELETE /client
+2021-06-01T02:00:39.223Z [store-api] info POST /client - {"client_id":6,"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-01T02:00:56.041Z [store-api] error PUT  - Client ID, Name, CPF, Phone, Email e Address são obrigatórios.
+2021-06-01T02:01:07.601Z [store-api] info PUT /client - {"client_id":6,"name":"João 2","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-01T02:01:16.375Z [store-api] info PUT /client - undefined
+2021-06-01T02:01:18.326Z [store-api] info PUT /client - {"client_id":6,"name":"João 2","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-01T02:01:27.381Z [store-api] info PUT /client - undefined
+2021-06-01T23:17:28.960Z [store-api] info POST /supplier - {"supplier_id":1,"name":"E Eletrônicos","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 2"}
+2021-06-01T23:18:20.432Z [store-api] error PUT  - Supplier ID, Name, CNPJ, Phone, Email e Address são obrigatórios.
+2021-06-01T23:18:33.593Z [store-api] info PUT /supplier - {"supplier_id":1,"name":"E Eletrônicos Ltda","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 2"}
+2021-06-01T23:18:48.427Z [store-api] info GET /supplier
+2021-06-01T23:19:20.965Z [store-api] info GET /supplier
+2021-06-01T23:19:24.386Z [store-api] info GET /supplier
+2021-06-01T23:19:27.065Z [store-api] info GET /supplier
+2021-06-01T23:19:35.407Z [store-api] info POST /supplier - {"supplier_id":2,"name":"E Eletrônicos","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 2"}
+2021-06-01T23:19:37.011Z [store-api] info POST /supplier - {"supplier_id":3,"name":"E Eletrônicos","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 2"}
+2021-06-01T23:19:46.009Z [store-api] info DELETE /supplier
+2021-06-01T23:37:10.444Z [store-api] info POST /product - {"product_id":1,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"5000","stock":100}
+2021-06-01T23:37:23.597Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-01T23:37:57.745Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-01T23:39:51.429Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-01T23:40:34.685Z [store-api] error PUT  - Unexpected string in JSON at position 20
+2021-06-01T23:40:39.506Z [store-api] error PUT  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-01T23:40:44.290Z [store-api] info PUT /product - {"product_id":1,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"5500","stock":100}
+2021-06-01T23:40:50.069Z [store-api] info GET /product
+2021-06-01T23:40:52.850Z [store-api] info GET /product
+2021-06-01T23:40:59.238Z [store-api] info POST /product - {"product_id":5,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"5000","stock":100}
+2021-06-01T23:41:06.039Z [store-api] info DELETE /product
+2021-06-01T23:41:09.008Z [store-api] info GET /product
+2021-06-01T23:41:12.171Z [store-api] info POST /product - {"product_id":6,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"5000","stock":100}
+2021-06-01T23:41:14.586Z [store-api] info GET /product
+2021-06-01T23:41:19.560Z [store-api] info DELETE /product
+2021-06-01T23:41:21.927Z [store-api] info GET /product
+2021-06-01T23:41:37.586Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-08T01:29:22.061Z [store-api] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-08T01:29:41.564Z [store-api] error PUT  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2021-06-08T01:36:08.674Z [store-api] info GET /supplier
+2021-06-08T01:36:17.850Z [store-api] info GET /supplier
+2021-06-08T01:37:00.451Z [store-api] error POST  - O supplier_id informado não existe.
+2021-06-08T01:37:08.240Z [store-api] info POST /product - {"product_id":12,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"5000","stock":100}
+2021-06-08T01:38:51.111Z [store-api] error PUT  - O supplier_id informado não existe.
+2021-06-08T01:39:02.160Z [store-api] info PUT /product - {"product_id":1,"supplier_id":1,"name":"Notebook Acer","description":"Notebook Acer i7 32gb RAM","value":"6500","stock":100}
+2021-06-08T02:04:33.405Z [store-api] error POST  - insert or update on table "sales" violates foreign key constraint "fk_clients"
+2021-06-08T02:05:07.364Z [store-api] info GET /client
+2021-06-08T02:05:17.060Z [store-api] info POST /sale - {"sale_id":2,"client_id":2,"product_id":1,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:10:08.680Z [store-api] info PUT /sale - {"sale_id":2,"client_id":2,"product_id":1,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:10:13.251Z [store-api] info PUT /sale - {"sale_id":2,"client_id":2,"product_id":1,"value":"4000","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:10:19.161Z [store-api] info POST /sale - {"sale_id":3,"client_id":2,"product_id":1,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:10:22.458Z [store-api] info GET /sale
+2021-06-08T02:10:26.960Z [store-api] info GET /sale
+2021-06-08T02:10:30.950Z [store-api] info DELETE /sale
+2021-06-08T02:10:34.310Z [store-api] info GET /sale
+2021-06-08T02:10:38.214Z [store-api] info GET /sale
+2021-06-08T02:14:04.190Z [store-api] error POST  - O product_id informado não existe.
+2021-06-08T02:14:10.642Z [store-api] error POST  - O client_id informado não existe.
+2021-06-08T02:15:59.292Z [store-api] error POST  - O client_id informado não existe.,O product_id informado não existe.
+2021-06-08T02:20:28.524Z [store-api] error POST  - undefined
+2021-06-08T02:21:14.771Z [store-api] error POST  - O client_id informado não existe.,O product_id informado não existe.
+2021-06-08T02:23:42.792Z [store-api] error POST  - O client_id informado não existe.O product_id informado não existe.
+2021-06-08T02:24:16.830Z [store-api] error POST  - O client_id informado não existe.O product_id informado não existe.
+2021-06-08T02:24:22.420Z [store-api] info POST /sale - {"sale_id":4,"client_id":2,"product_id":1,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:24:26.499Z [store-api] error POST  - O client_id informado não existe.
+2021-06-08T02:24:34.860Z [store-api] info PUT /sale - {"sale_id":2,"client_id":2,"product_id":1,"value":"4000","date":"2000-01-01T02:00:00.000Z"}
+2021-06-08T02:24:41.651Z [store-api] error PUT  - O client_id informado não existe.
+2021-06-08T02:24:45.919Z [store-api] error PUT  - O client_id informado não existe.O product_id informado não existe.
+2021-06-08T02:24:51.880Z [store-api] info PUT /sale - {"sale_id":2,"client_id":2,"product_id":1,"value":"4000","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T00:45:51.305Z [store-api] info GET /product
+2021-06-10T00:46:10.006Z [store-api] error POST  - O client_id informado não existe.O product_id informado não existe.
+2021-06-10T00:46:15.265Z [store-api] error POST  - O product_id informado não existe.
+2021-06-10T00:46:20.106Z [store-api] error POST  - Cannot access 'sale' before initialization
+2021-06-10T00:48:16.637Z [store-api] error POST  - Cannot access 'sale' before initialization
+2021-06-10T00:48:21.496Z [store-api] error POST  - Cannot access 'sale' before initialization
+2021-06-10T00:48:56.569Z [store-api] info POST /sale - {"sale_id":5,"client_id":2,"product_id":12,"value":"3500","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T00:49:07.349Z [store-api] info GET /product
+2021-06-10T00:49:14.516Z [store-api] info GET /product
+2021-06-10T00:49:45.855Z [store-api] info POST /product - {"product_id":13,"supplier_id":1,"name":"Mouse Dell","description":"Mouse Dell Bluetooth","value":"50","stock":2}
+2021-06-10T00:50:01.825Z [store-api] info GET /product
+2021-06-10T00:50:25.865Z [store-api] info POST /sale - {"sale_id":6,"client_id":2,"product_id":13,"value":"50","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T00:50:30.986Z [store-api] info GET /product
+2021-06-10T00:50:35.126Z [store-api] info POST /sale - {"sale_id":7,"client_id":2,"product_id":13,"value":"50","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T00:50:39.305Z [store-api] info GET /product
+2021-06-10T00:50:43.906Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:50:46.955Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:50:47.873Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:50:48.535Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:50:49.180Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:50:49.925Z [store-api] error POST  - O produto informado não possui estoque.
+2021-06-10T00:58:17.825Z [store-api] info GET /sale
+2021-06-10T00:58:25.146Z [store-api] error DELETE  - O id da sale informado não existe.
+2021-06-10T00:58:36.500Z [store-api] info GET /sale
+2021-06-10T00:58:44.826Z [store-api] info GET /product
+2021-06-10T00:58:53.016Z [store-api] info DELETE /sale
+2021-06-10T00:58:59.286Z [store-api] info GET /product
+2021-06-10T00:59:39.577Z [store-api] info GET /sale
+2021-06-10T01:01:37.477Z [store-api] info GET /sale
+2021-06-10T01:02:07.746Z [store-api] info PUT /sale - {"sale_id":6,"client_id":2,"product_id":13,"value":"50","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T01:02:14.245Z [store-api] info PUT /sale - {"sale_id":6,"client_id":2,"product_id":13,"value":"55","date":"2000-01-01T02:00:00.000Z"}
+2021-06-10T01:20:14.916Z [store-api] info GET /sale
+2021-06-10T01:21:42.583Z [store-api] info GET /sale
+2021-06-10T01:23:14.640Z [store-api] info GET /sale
+2021-06-10T01:25:53.785Z [store-api] info GET /sale
+2021-06-10T01:26:08.296Z [store-api] info GET /sale
+2021-06-10T01:26:13.069Z [store-api] info GET /sale
+2021-06-10T01:26:16.991Z [store-api] info GET /sale
+2021-06-10T01:28:00.468Z [store-api] info GET /sale
+2021-06-13T13:55:53.821Z [store-api] info API Started!
+2021-06-13T14:19:06.124Z [store-api] info GET /client
+2021-06-13T14:19:41.176Z [store-api] info GET /client
+2021-06-13T14:19:47.069Z [store-api] info POST /client - {"clientId":11,"name":"João","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-13T14:20:00.180Z [store-api] error PUT  - Client ID, Name, CPF, Phone, Email e Address são obrigatórios.
+2021-06-13T14:20:39.949Z [store-api] info PUT /client - null
+2021-06-13T14:20:47.812Z [store-api] info PUT /client - null
+2021-06-13T14:20:53.871Z [store-api] info GET /client
+2021-06-13T14:21:01.828Z [store-api] info GET /client
+2021-06-13T14:21:07.041Z [store-api] info PUT /client - {"clientId":2,"name":"João 4","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-13T14:21:14.943Z [store-api] info PUT /client - {"clientId":2,"name":"João 5","cpf":"23509918061","phone":"31989896655","email":"joao@gmail.com","address":"Rua X, n 100"}
+2021-06-13T14:21:21.112Z [store-api] info GET /client
+2021-06-13T14:21:24.763Z [store-api] info GET /client
+2021-06-13T14:21:52.430Z [store-api] info DELETE /client
+2021-06-13T14:21:55.635Z [store-api] info GET /client
+2021-06-13T14:26:55.944Z [store-api] info GET /supplier
+2021-06-13T14:26:59.233Z [store-api] info GET /supplier
+2021-06-13T14:27:05.494Z [store-api] error PUT  - Supplier ID, Name, CNPJ, Phone, Email e Address são obrigatórios.
+2021-06-13T14:27:30.386Z [store-api] info PUT /supplier - {"supplierId":1,"name":"E Eletrônicos Ltda","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 3"}
+2021-06-13T14:27:34.896Z [store-api] info POST /supplier - {"supplierId":5,"name":"E Eletrônicos","cnpj":"84169773000196","phone":"31982334444","email":"eeletronicos@gmail.com","address":"Rua ABC, n 2"}
+2021-06-13T14:27:38.407Z [store-api] info GET /supplier
+2021-06-13T14:27:45.642Z [store-api] info DELETE /supplier
+2021-06-13T14:27:49.840Z [store-api] info GET /supplier
+2021-06-13T14:34:57.683Z [store-api] info GET /product
+2021-06-13T14:35:05.918Z [store-api] info GET /product
+2021-06-13T14:35:14.329Z [store-api] error DELETE  - update or delete on table "products" violates foreign key constraint "fk_products" on table "sales"
+2021-06-13T14:37:57.749Z [store-api] error POST  - Name, Description, Value, Stock e Supplier ID são obrigatórios.
+2021-06-13T14:38:38.557Z [store-api] error POST  - O supplier_id informado não existe.
+2021-06-13T14:38:48.772Z [store-api] info GET /supplier
+2021-06-13T14:41:07.191Z [store-api] error POST  - O supplier_id informado não existe.
+2021-06-13T14:41:51.925Z [store-api] error POST  - O supplier_id informado não existe.
+2021-06-13T14:42:21.580Z [store-api] info POST /product - {"productId":33,"name":"Mouse Dell","description":"Mouse Dell Bluetooth","value":"50","stock":2,"supplierId":4}
+2021-06-13T14:42:28.788Z [store-api] error DELETE  - connect is not a function
+2021-06-13T14:43:36.772Z [store-api] info DELETE /product
+2021-06-13T14:43:39.860Z [store-api] info GET /product
+2021-06-13T14:43:43.863Z [store-api] info GET /product
+2021-06-13T14:47:29.006Z [store-api] error POST  - Value, Date, Client ID e Product ID são obrigatórios.
+2021-06-13T14:48:07.988Z [store-api] error POST  - O client_id informado não existe.O product_id informado não existe.
+2021-06-13T14:48:46.413Z [store-api] error POST  - column "product_product_id" does not exist
+2021-06-13T14:50:05.331Z [store-api] info POST /sale - {"saleId":10,"value":"50","date":"2000-01-01","clientId":2,"productId":31}
+2021-06-13T14:50:56.238Z [store-api] info GET /sale
+2021-06-13T14:52:21.302Z [store-api] info GET /sale
+2021-06-13T14:53:09.058Z [store-api] info GET /sale
+2021-06-13T14:55:43.438Z [store-api] info GET /sale
+2021-06-13T14:56:28.136Z [store-api] info GET /sale
+2021-06-13T14:57:46.952Z [store-api] info GET /sale
+2021-06-13T14:57:54.643Z [store-api] info GET /sale
+2021-06-13T14:58:01.794Z [store-api] info GET /sale
+2021-06-13T14:58:14.915Z [store-api] info GET /sale
+2021-06-13T14:58:35.526Z [store-api] info GET /sale
+2021-06-13T14:59:04.878Z [store-api] info GET /sale
+2021-06-13T15:01:00.906Z [store-api] info GET /sale
+2021-06-13T15:01:10.067Z [store-api] error DELETE  - Cannot read property 'stock' of null
+2021-06-13T15:02:19.548Z [store-api] error DELETE  - O id da sale informado não existe.
+2021-06-13T15:03:55.167Z [store-api] info GET /sale
+2021-06-13T15:04:07.449Z [store-api] info DELETE /sale
+2021-06-13T15:04:11.473Z [store-api] info GET /sale
+2021-06-13T15:06:30.447Z [store-api] info PUT /sale - undefined
+2021-06-13T15:07:33.664Z [store-api] info PUT /sale - {"saleId":6,"value":"55","date":"2000-01-01","clientId":2,"productId":13}
+2021-06-13T15:07:49.448Z [store-api] info PUT /sale - {"saleId":6,"value":"55","date":"2000-01-01","clientId":3,"productId":13}
+2021-06-13T15:08:34.748Z [store-api] error DELETE  - Não é possível excluir o produto pois ele tem vendas.
+2021-06-13T15:08:41.763Z [store-api] info POST /product - {"productId":34,"name":"Mouse Dell","description":"Mouse Dell Bluetooth","value":"50","stock":2,"supplierId":4}
+2021-06-13T15:08:45.532Z [store-api] error DELETE  - Não é possível excluir o produto pois ele tem vendas.
+2021-06-13T15:09:47.839Z [store-api] info DELETE /product
+2021-06-13T15:09:51.872Z [store-api] info DELETE /product
+2021-06-13T15:10:09.095Z [store-api] error DELETE  - Não é possível excluir o produto pois ele tem vendas.
+2021-06-13T15:19:56.270Z [store-api] info GET /supplier
+2021-06-13T15:20:23.126Z [store-api] info POST /sale - {"saleId":11,"value":"50","date":"2000-01-01","clientId":2,"productId":32}
+2021-06-13T15:20:27.748Z [store-api] info POST /sale - {"saleId":12,"value":"50","date":"2000-01-01","clientId":2,"productId":32}
+2021-06-13T15:22:41.476Z [store-api] info GET /sale
+2021-06-13T15:22:49.048Z [store-api] info GET /sale
+2021-06-13T20:59:10.770Z [store-api] error POST  - ProductService.createProductInfo is not a function
+2021-06-13T20:59:59.617Z [store-api] info POST /product/info - {"productId":32,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"60c671cfedb2211c70c23d38"}
+2021-06-13T21:18:44.893Z [store-api] info PUT /product/info - {"productId":32,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2021-06-13T21:18:52.375Z [store-api] info PUT /product/info - {"productId":32,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2021-06-13T21:19:36.467Z [store-api] info GET /product
+2021-06-13T21:19:37.989Z [store-api] info GET /product
+2021-06-13T21:19:41.024Z [store-api] info GET /product
+2021-06-13T21:19:47.931Z [store-api] info GET /product
+2021-06-13T21:20:01.103Z [store-api] info GET /product
+2021-06-13T21:20:24.261Z [store-api] info GET /product
+2021-06-13T21:24:23.374Z [store-api] info GET /product
+2021-06-13T21:24:37.341Z [store-api] info GET /product
+2021-06-13T21:26:36.613Z [store-api] info GET /product
+2021-06-13T21:54:34.712Z [store-api] info GET /product
+2021-06-13T22:01:15.921Z [store-api] error DELETE  - Cannot read property 'reviews' of null
+2021-06-13T22:14:20.968Z [store-api] error GET  - invalid input syntax for integer: "info"
+2021-06-13T22:14:50.425Z [store-api] info GET /product/info
+2021-06-13T22:15:12.578Z [store-api] info GET /product/info
+2021-06-13T22:15:32.925Z [store-api] error GET  - Converting circular structure to JSON
+    --> starting at object with constructor 'ReplSet'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'coreTopology' -> object with constructor 'ReplSet'
+    |     ...
+    |     property 's' -> object with constructor 'Object'
+    --- property 'topology' closes the circle
+2021-06-13T22:15:49.384Z [store-api] info GET /product/info
+2021-06-13T22:18:52.665Z [store-api] info GET /product
+2021-06-13T22:19:08.285Z [store-api] info POST /product/info - {"productId":12,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[],"_id":"60c6845b6f81472d4c2961a2"}
+2021-06-13T22:20:14.510Z [store-api] info DELETE /product/info
+2021-06-13T22:26:58.805Z [store-api] info DELETE /product/info
+2021-06-14T01:44:06.229Z [store-api] info POST /product/info - {"productId":12,"category":"Mouse","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2021-06-14T01:44:29.514Z [store-api] info PUT /product/info - {"productId":12,"category":"Mouse Sem Fio","width":"15cm","height":"20cm","depth":"5cm","reviews":[]}
+2021-06-14T01:44:48.820Z [store-api] info DELETE /product/info
+2021-06-14T01:45:13.449Z [store-api] info DELETE /product/32/review/0
+2021-06-14T01:45:14.408Z [store-api] info DELETE /product/32/review/0
+2021-06-14T01:45:36.998Z [store-api] info POST /product/review
+2021-06-14T01:45:52.988Z [store-api] info GET /product/info
+2021-06-14T01:45:53.836Z [store-api] info GET /product/info
+2021-06-14T01:45:58.691Z [store-api] info GET /product
+2021-06-14T01:49:07.957Z [store-api] info GET /product
